@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <RadioGroup
+        android:id="@+id/radioGrpDevice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/btnManufacturer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            style="@style/Base.TextAppearance.AppCompat.Headline"
+
+            android:text="Manufacturer"/>
+
+        <RadioButton
+            android:layout_marginTop="5dp"
+            android:id="@+id/btnModel"
+            android:layout_width="match_parent"
+            style="@style/Base.TextAppearance.AppCompat.Headline"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:gravity="center"
+            android:text="Model"/>
+
+        <RadioButton
+            android:layout_marginTop="5dp"
+            android:id="@+id/btnType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:gravity="center"
+            style="@style/Base.TextAppearance.AppCompat.Headline"
+            android:text="Type"/>
+
+        <RadioButton
+            android:layout_marginTop="5dp"
+            android:id="@+id/btnPlatform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:gravity="center"
+            style="@style/Base.TextAppearance.AppCompat.Headline"
+            android:text="Platform"/>
+
+        <RadioButton
+            android:layout_marginTop="5dp"
+            android:id="@+id/btnOSVersion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:gravity="center"
+            style="@style/Base.TextAppearance.AppCompat.Headline"
+            android:text="OS Versions"/>
+        <RadioButton
+            android:layout_marginTop="5dp"
+            android:id="@+id/btnAppVersions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:gravity="center"
+            style="@style/Base.TextAppearance.AppCompat.Headline"
+            android:text="App Versions"/>
+        <RadioButton
+            android:layout_marginTop="5dp"
+            android:id="@+id/btnResolutions"
+            android:layout_width="match_parent"
+            android:button="@null"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            style="@style/Base.TextAppearance.AppCompat.Headline"
+            android:text="Resolutions"/>
+    </RadioGroup>
+</LinearLayout>
